@@ -95,8 +95,11 @@ echo
 
 # Ejemplos
 
-## Cuadernos Jupyter y acceso al Intel DevCloud
-1. En este [ejemplo](..) vamos 
+## Cuadernos Jupyter 
+1. En este [cuaderno](Jupyter-codes/DevCloud_Jupyter.ipynb) vamos exponer como conseguir acceso al [Intel DevCloud](https://devcloud.intel.com/oneapi/) y como se puede ejecutar el entorno con los ejemplos del taller.
+2. El uso de [pandas](Jupyter-codes/pandas.ipynb) permite realizar analítica de datos de forma ordenada y eficiente. Este cuaderno no solamente contiene información y ejemplos sino que se presentan [ejercicios](Jupyter-codes/pandas_ejercicio.ipynb) a realizar por los asistentes
+3. La librería [numpy](https://numpy.org/) permite operar con datos estructurados de forma efiente como queda patente en el [tercer cuaderno de Jupyter](Jupyter-codes/numpy.ipynb)
+4. La utilización de la librería [scikit-learn](https://scikit-learn.org/) permite implementar algoritmos de Machine-Learning. La extensión [Intel® Extension for Scikit-learn](https://intel.github.io/scikit-learn-intelex/) disponible en oneAPI permite acelerar las operaciones realacionadas tanto en la fase de aprendizaje como inferencia. El [cuatro cuaderno](Jupyter-codes/ML_scikitlearn.ipynb) ilustra la utilización de la extensión Intel® Extension for Scikit-learn
+5. Por último, Intel oneAPI facilita la utilización de dispositivos como GPUs mediante el paradigma Data-Parallel. En [el quinto cuaderno](Jupyter-codes/ML_scikitlearn_GPU.ipynb) se ilustra la utilización de estos dispositivos en el proceso de entrenamiento de modelos de Machine-Learning
 
-## Cuadernos Jupyter y acceso al Intel DevCloud
-1. En este [ejemplo](..) vamos 
+
